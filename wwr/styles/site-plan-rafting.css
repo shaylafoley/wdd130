@@ -3,8 +3,8 @@
 :root{
     --primary-color: #33658A;
     --secondary-color: #F26419;
-    --accent-color: #86BBD8;
-    --accent-color: #2F4858;
+    --accent1-color: #86BBD8;
+    --accent2-color: #2F4858;
 
     --heading-font: Ruda, sans-serif;
     --parpagraph-font: Roboto, sans-serif;
