@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ruda&display=swap');
 
-:root{
+:root {
     --primary-color: #33658A;
     --secondary-color: #F26419;
     --accent1-color: #86BBD8;
@@ -9,7 +9,7 @@
     --heading-font: Ruda, sans-serif;
     --parpagraph-font: Roboto, sans-serif;
 
-    --nav-background-color: #2F4858;
+    --nav-background-color: #eee;
     --nav-link-color: #33658A;
     --nav-hover-link-color: #86BBD8;
     --nav-hover-background-color: #33658A;
