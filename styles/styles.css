@@ -19,14 +19,14 @@ h1 {
     color: steelblue;
 }
 img {
-    width: 150 px;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10 px;
+    padding: 10px;
 }
 main {
     max-width: 840px;
