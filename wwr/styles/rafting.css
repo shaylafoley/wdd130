@@ -75,11 +75,15 @@ nav a {
     position: absolute;
  }
 
- .heroarticle {
+ .hero article {
     position: absolute;
     background-color: #86BBD8;
-    top: 50%;
-    left: 1%;
+    max-width: 80%;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    margin: 0 auto;
     border: 1px solid black;
     padding: 0.65rem;
     box-shadow: 0 0 30px black;
@@ -87,17 +91,8 @@ nav a {
     
  }
 
- .heroarticle img {
-    position: absolute;
-    
-    width: 30%;
-
-
+ .hero article img {
+    float:right; 
+    width: 200px;
  }
 
- .wrapper {
-    float: right;
-    margin: 0;
-
- }
- 
