@@ -23,7 +23,10 @@ nav a {
 }
 h1 {
     color: steelblue;
-    border-bottom: 5px black;
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+
 }
 
 img {
@@ -35,6 +38,7 @@ img {
 }
 p {
     padding: 10px;
+    margin: 20px;
 }
 main {
     max-width: 840px;
@@ -53,6 +57,7 @@ aside {
 }
 aside img {
     width: 200px;
+    margin: 30px;
     height: auto;
     
 }
@@ -60,6 +65,8 @@ aside h2 {
     position: absolute;
     top: 0px;
     left: 50px;
+
+    
 }
 main img {
     width: 150px;
