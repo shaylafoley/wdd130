@@ -60,11 +60,13 @@ nav {
  }
 
 .navigation li {
-    
-    flex: 1 1 100%;   
+    display: flex;
+    flex: 1 1 100%; 
+     
 }
 .navigation a {
-    display: block;
+    display: flex;
+    justify-content: space-around;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
@@ -132,7 +134,7 @@ nav {
     padding: 0;
     margin: 0;
     list-style: none;
-    max-width: ;
+    
  }
  .history {
     float: left;
