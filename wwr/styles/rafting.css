@@ -9,8 +9,8 @@
     --heading-font: Ruda, sans-serif;
     --paragraph-font: Roboto, sans-serif;
 
-    --nav-background-color: #eee;
-    --nav-link-color: #33658A;
+    --nav-background-color: #33658A;
+    --nav-link-color:black;
     --nav-hover-link-color: #86BBD8;
     --nav-hover-background-color: #33658A;
 }
@@ -18,12 +18,12 @@
 body {
     max-width: 960px;
     padding: 20px;
-    font-family: var(--paragraph-font);
+    font-family: black;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: black;
 }
 
 header {
@@ -67,7 +67,7 @@ nav {
 .navigation a {
     display: flex;
     justify-content: space-around;
-    color: var(--nav-link-color);
+    color: black;
     text-decoration: none;
     padding: 1rem;
     
@@ -81,7 +81,7 @@ nav {
     margin: 10px auto;
     position: relative;
     text-align: center;
-    color: white
+    color: black
 }
 
  .hero img {
