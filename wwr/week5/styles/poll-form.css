@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Merriweather&family=Roboto&family=Ruda&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    max-width: 960px;
+    padding: 1px;
+    font-family: Lexend;
+   
+
+}
+label, input, button, select, textarea {
+    font-family: merriweather;
+}
+
+header {
+    margin: 0, auto;
+    width: 650px;
+
+}
+
+h1 {
+    
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: darkblue;
+    text-align: center;
+    
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1px;
+    margin: auto;
+    padding: 1rem;
+    width: 450px;
+    
+}
+
+legend {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: darkgreen;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+input, select, textarea {
+    padding: 1.2rem;
+    font-size: larger;
+}
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    color:blue;
+    
+    border-width: 5px;
+    background-color: lightblue;
+    width: 150px;
+    height: 50px;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+}
+:hover button {
+    background-color: deepskyblue;
+}
+footer {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 650px;
+    text-align: center;
+    color: black;
+    border-top: 3px solid black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
