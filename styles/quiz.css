@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Merriweather&family=Roboto&family=Ruda&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    max-width: 960px;
+    padding: 1px;
+    font-family: Lexend;
+   
+
+}
+label, input, button, select, textarea {
+    font-family: merriweather;
+}
+
+header {
+    margin: 0 auto;
+    width: 950px;
+
+}
+
+h1 {
+    
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: darkblue;
+    text-align: center;
+    
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    display: grid;
+    
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 2px;
+    margin: auto;
+    padding: 1rem;
+    width: 450px;
+    
+}
+
+legend {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: darkgreen;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+input, select, textarea {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+
+button {
+    color:blue;
+    
+    border-width: 5px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+}
+:hover button {
+    background-color: deepskyblue;
+}
+footer {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 650px;
+    text-align: center;
+    color: black;
+    border-top: 3px solid black;
+}
