@@ -120,7 +120,10 @@ nav {
 
  .hero article img {
     float:right; 
-    width: 200px;
+    width: 100px;
+    height: 100px;
+    
+
  }
  .headline {
     display: flex;
@@ -151,5 +154,57 @@ nav {
 
     
  }
- 
+ iframe {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
 
+ }
+ .contact {
+    text-align: center;
+ }
+ .info {
+    border: 2px solid black;
+ }
+ form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    align-items: center;
+    grid-gap: 1px;
+    margin: auto;
+    padding: 1rem;
+    width: 450px;
+    
+}
+button {
+    color:blue;
+    
+    border-width: 5px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+}
+:hover button {
+    background-color: deepskyblue;
+}
+label {
+    display: grid;
+
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1rem;
