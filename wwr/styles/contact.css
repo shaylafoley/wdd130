@@ -105,8 +105,8 @@ nav {
  .hero article {
     position: absolute;
     background-color: #86BBD8;
-    max-width: 80%;
-    top: 40%;
+    max-width: 90%;
+    top: 25%;
     left: 0;
     right: 0;
     bottom: 5%;
@@ -208,3 +208,10 @@ label {
 input, select, textarea {
     padding: .5rem;
     font-size: 1rem;
+}
+figcaption {
+    margin-top: 1.2rem;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
