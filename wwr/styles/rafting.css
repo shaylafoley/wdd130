@@ -252,3 +252,16 @@ figcaption {
     text-align: center;
     padding: 10px;
 }
+.link {
+   background-color: #33658A;
+   color: white;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+
+}
+.link hover {
+   background-color: #2F4858;
+   
+}
