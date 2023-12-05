@@ -77,14 +77,14 @@ nav {
     background-color: var(--nav-hover-background-color);
     
 }
-.hero {
+.herocontact {
     margin: 10px auto;
     position: relative;
     text-align: center;
     color: black
 }
 
- .hero img {
+ .herocontact img {
     display: block;
     width: 100%;
     height: 100%;
@@ -98,15 +98,15 @@ nav {
     transform: translate(-50%, -50%);
 }
 
- .hero h1{
+ .herocontact h1{
     position: absolute;
  }
 
- .hero article {
+ .herocontact article {
     position: absolute;
     background-color: #86BBD8;
-    max-width: 80%;
-    top: 40%;
+    max-width: 90%;
+    top: 25%;
     left: 0;
     right: 0;
     bottom: 5%;
@@ -118,9 +118,12 @@ nav {
     
  }
 
- .hero article img {
+ .herocontact article img {
     float:right; 
-    width: 200px;
+    width: 100px;
+    height: 100px;
+    
+
  }
  .headline {
     display: flex;
@@ -151,5 +154,64 @@ nav {
 
     
  }
- 
+ iframe {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
 
+ }
+ .contact {
+    text-align: center;
+ }
+ .info {
+    border: 2px solid black;
+ }
+ form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    align-items: center;
+    grid-gap: 1px;
+    margin: auto;
+    padding: 1rem;
+    width: 450px;
+    
+}
+button {
+    color:blue;
+    
+    border-width: 5px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+}
+:hover button {
+    background-color: deepskyblue;
+}
+label {
+    display: grid;
+
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+figcaption {
+    margin-top: 1.2rem;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
