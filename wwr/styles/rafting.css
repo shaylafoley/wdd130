@@ -252,6 +252,11 @@ figcaption {
     text-align: center;
     padding: 10px;
 }
+.tripcaption {
+   margin: 10px auto;
+   position: relative;
+   text-align: center;
+}
 .link {
    background-color: #33658A;
    color: white;
@@ -264,4 +269,33 @@ figcaption {
 .link hover {
    background-color: #2F4858;
    
+}
+figure {
+   display: grid;
+   border: 1px solid black;
+   margin: 20px; /* adjust as needed */
+}
+figure img {
+   vertical-align: top;
+   padding: 20px;
+}
+figure figcaption {
+   border: 1px solid black;
+   border-width: 3px;
+   text-align: center;
+}
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+.center {
+   margin-left: auto;
+   margin-right: auto;
 }
